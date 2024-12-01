@@ -1,6 +1,6 @@
 from random import randint
 import re
-def dice(dice_code):
+def roll_dice(dice_code):
 
     dice_type_list = {
         'D3': 3,
@@ -37,7 +37,8 @@ def dice(dice_code):
         'total': total
     }
 
-print(dice('D6'))
+print(roll_dice('D6'))
+
 
 
 
